@@ -14,7 +14,7 @@ spring:
     mongodb:
       authentication-database: admin
       database: ms-users
-      host: 172.22.0.2  # Indirizzo IP statico di MongoDB nella rete Docker
+      host: mongodb  # Indirizzo IP statico di MongoDB nella rete Docker
       password: 123Stella
       port: 27017       # Usa la porta interna di MongoDB, non quella esposta sull'host
       username: nicola

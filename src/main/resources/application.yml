@@ -12,8 +12,8 @@ spring:
 #==========================================================
   data:
     mongodb:
-      host: 172.22.0.2   # Usa l'IP statico di MongoDB nella rete Docker
-      port: 27017        # Porta interna di MongoDB
+      host: mongodb       # Usa il nome del servizio Docker invece dell'IP
+      port: 27017         # Questa linea è opzionale se usi la porta di default
       database: ms-users
       authentication-database: admin
       username: nicola

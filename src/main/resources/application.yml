@@ -14,8 +14,8 @@ spring:
     mongodb:
       authentication-database: admin
       database: ms-users
-      host: localhost
+      host: mongodb
       password: 123Stella
-      port: 37017
+      port: 27017 #37017
       username: nicola
       auto-index-creation: true

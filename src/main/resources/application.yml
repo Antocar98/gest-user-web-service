@@ -16,5 +16,5 @@ spring:
       port: 27017         # Questa linea è opzionale se usi la porta di default
       database: ms-users
       authentication-database: admin
-      username: admin
-      password: 123_Stella
+      username: antonio
+      password: antonio
